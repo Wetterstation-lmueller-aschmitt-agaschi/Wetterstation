@@ -83,8 +83,8 @@ void setup() {
   Serial.println(WiFi.localIP());
 
   server.on("/", HTTP_GET, [](AsyncWebServerRequest* request) {
-    Serial.println("ESP32 Web Server: New request received:");  // for debugging
-    Serial.println("GET /");                                    // for debugging
+    Serial.println("ESP32 Web Server: New request received:"); 
+    Serial.println("GET /");                                   
 
     request->send(200, "text/html", webpage);
   });
