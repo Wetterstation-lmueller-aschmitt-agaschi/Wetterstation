@@ -11,7 +11,8 @@ Es sollte eine simple Wetterstation erstellt werden, die die gemessenen Daten ü
 Es wurde eine kleine Wetterstation mit hilfe eine ESP32c3, einem DHT11 und Vibrationssensor realisiert. Die gemessenen Daten werden über eine vom Microcontroller gehostete Website dargestellt. Außerdem wurde eine RGB-Status-LED mit drei verschiedenen Zusänden realisiert, wobei man über die Website die einzelnen Farben der Zustände einstellen kann. 
 
 ## 3.  Theorie
-Bei diesem Projekt wurde viel Theorie aus dem letzten Jahr Syt-Unterricht in der Praxis angewant. 
+Für den Webserver haben wir die ESPAsyncWebServer Library installiert. Für den DHT11-Sensor haben wir ebenfalls die dazugehörige Library installiert. Zum speichern der Farben der Status-LED ahben wir nvs benutzt.
+Ansonsten haben wir noch für den Vibrationssensor einen internen Pulldown-Widerstand verwendet.
 
 
 ### Code
