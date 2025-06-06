@@ -57,4 +57,4 @@ Wir haben leider keinen Vibrationssensor gefunden, weswegen wir im Schaltbild ei
 Hier ist ein Bild unserer fertigen Wetterstation.
   
 <image src="Bilder/website.jpg">
-Hier ist noch ein Bild, wie die Website aussieht.
+Hier ist noch ein Bild, wie die fertige Website aussieht.
