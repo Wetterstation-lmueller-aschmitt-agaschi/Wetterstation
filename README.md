@@ -52,3 +52,9 @@ Diese beiden Methoden speichern oder laden einen Datensatz mithilfe eines keys a
 ### Bilder und Schaltungen
 <image src="Bilder/schaltbild.jpg">
 Wir haben leider keinen Vibrationssensor gefunden, weswegen wir im Schaltbild einen DS18B20 stattdessen eingebaut haben, da er die gleichen Pins wie unser Vibrationssensor besitzt. 
+
+<image src="Bilder/Wetterstation.jpg">
+Hier ist ein Bild unserer fertigen Wetterstation.
+  
+<image src="Bilder/website.jpg">
+Hier ist noch ein Bild, wie die Website aussieht.
