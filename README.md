@@ -15,7 +15,7 @@ Für den Webserver haben wir die ESPAsyncWebServer Library installiert. Für den
 Ansonsten haben wir noch für den Vibrationssensor einen internen Pulldown-Widerstand verwendet.
 
 
-### Code
+## 4. Code
 Den Code findet man anbei im script Folder unter script.ino bzw. index.h für die Website.
 
 Anfangs haben wir sehr viele Objekte und variablen definiert bzw deklariert, die wir im Laufe des Codes benötigen, wie z.B. für den DHT Sensor, AsyncWebServer, oder eine Variable zum speichern des aktuellen Status der Status-LED. Auch wurde eine Klasse für Messung erstellt. Dabei hat es jeweils ein Attribut für die Zeit, Temperatur, Vibration und Luftfeuchtigkeit. Danach wurde ein Messungs-Objekt-Array erstellt, welches drei Messungen speichert. Dadurch ermitteln wir dann den Durchschnitt der Messungen und geben diese dann über den WebServer an Clients weiter. 
