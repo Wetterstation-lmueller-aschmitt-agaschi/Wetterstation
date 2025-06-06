@@ -4,12 +4,7 @@ Datum: **5.6.2025**
 
 ## 1.  Einführung
 
-Es sollte eine Wetterstation erstellt werden, die mithilfe eines DHT11 Sensors Temperatur und Luftfeuchtigkeit misst. Außerdem sollten die gemessenen Daten auf einer Website angezeigt werden. Die
-Hier wird in einem Absatz eine kurze (zwei bis drei Sätze) Einführung zum Thema geschrieben. Zum Beispiel kann hier stehen, warum dieses Thema gewählt wurde, warum es wichtig ist. Grundsätzlich ist eine Dokumentation im passiv zu verfassen. Es ist nicht wichtig wer etwas getan hat, sondern was getan wurde.
-
-Z.B.:
-
-Es gibt unterschiedliche Methoden um Daten zu speichern, zum Beispiel in Dateien auf einer Festplatte oder in einem Cloudstorage. Für Webanwendungen oder maschinelle Weiterverarbeitung eignet sich dies eher schlecht, dafür werden zu meist Datenbanken verwendet. In Informationssysteme der 3. Klasse wird sich vor allem mit den relationalen Datenbanken beschäftigt.
+Es sollte eine simple Wetterstation erstellt werden, die die gemessenen Daten über einen Webserver anzeigt. 
 
 ## 2.  Projektbeschreibung
 
