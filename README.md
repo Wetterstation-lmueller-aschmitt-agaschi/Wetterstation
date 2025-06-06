@@ -60,3 +60,17 @@ Hier ist ein Bild unserer fertigen Wetterstation.
   
 <image src="Bilder/website.jpg">
 Hier ist noch ein Bild, wie die fertige Website aussieht.
+
+## Quellen
+Colorpicker:
+https://www.w3schools.com/howto/howto_html_colorpicker.asp
+
+Webserver:
+https://esp32io.com/tutorials/esp32-web-server
+
+DHT11 Sensor:
+https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/
+
+NVS:
+https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/nvs_flash.html?utm_source=chatgpt.com
+
