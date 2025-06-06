@@ -14,8 +14,10 @@ Es wurde eine kleine Wetterstation mit hilfe eine ESP32c3, einem DHT11 und Vibra
 Für den Webserver haben wir die ESPAsyncWebServer Library installiert. Für den DHT11-Sensor haben wir ebenfalls die dazugehörige Library installiert. Zum speichern der Farben der Status-LED ahben wir nvs benutzt.
 Ansonsten haben wir noch für den Vibrationssensor einen internen Pulldown-Widerstand verwendet.
 
+## 4. Arbeitsschritte
+Als erstes haben wir den Webserver aufgesetz. Danach haben wir als zweites den DHT11 Sensor implementiert und die Daten auf dem Webserver ausgegeben. Anschließend haben wir noch den Vibrationssensor hinzugefügt. Dann haben wir die Status-LED mit Color-Picker implementiert. Dabei haben wir zunächst die Farben nur in Variablen gespeichert und später dann die Speicherung auf dem Flash speicher implementiert. Zuletzt haben wir noch die Website besser Designed und mussten dann noch ein paar Fehler beheben.
 
-## 4.  Code
+## 5.  Code
 Den Code findet man anbei im script Folder unter script.ino bzw. index.h für die Website.
 
 Anfangs haben wir sehr viele Objekte und variablen definiert bzw deklariert, die wir im Laufe des Codes benötigen, wie z.B. für den DHT Sensor, AsyncWebServer, oder eine Variable zum speichern des aktuellen Status der Status-LED. Auch wurde eine Klasse für Messung erstellt. Dabei hat es jeweils ein Attribut für die Zeit, Temperatur, Vibration und Luftfeuchtigkeit. Danach wurde ein Messungs-Objekt-Array erstellt, welches drei Messungen speichert. Dadurch ermitteln wir dann den Durchschnitt der Messungen und geben diese dann über den WebServer an Clients weiter. 
